@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGemini",
+  "version": "1.0",
+  "description": "Makes Gemini look like ChatGPT.",
+  "content_scripts": [
+    {
+      "matches": ["https://gemini.google.com/*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "64": "icon64.png"
+  }
+}

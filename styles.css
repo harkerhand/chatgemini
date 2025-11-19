@@ -1,0 +1,42 @@
+::-webkit-scrollbar-thumb {
+    background: black !important;
+}
+
+/* 悬浮 */
+::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;
+}
+
+bard-sidenav {
+    background-color: #f9f9f9 !important;
+    max-width: 260px !important;
+}
+
+
+.conversations-container .conversation.selected {
+    background-color: #eaeaea !important;
+    color: var(--sidenav-button-default-text-color) !important;
+}
+
+.conversation-items-container:hover .conversation:not(.selected):not(.pending), .conversations-container .conversation:hover:not(.selected):not(.pending) {
+    background-color: #efefef !important;
+}
+
+.conversation-items-container .selected .conversation-actions-menu-button {
+    background-color: transparent !important;
+    color: var(--sidenav-button-default-text-color) !important;
+}
+
+
+.conversation-actions-container .conversation-actions-menu-button:focus, .conversation-actions-container .conversation-actions-menu-button:hover, .conversation-items-container .menu-opened.conversation-actions-menu-button {
+    background-color: transparent !important;
+    color: var(--sidenav-button-default-text-color) !important;
+}
+
+.right-section {
+    display: none !important;
+}
+
+.avatar-gutter {
+    display: none !important;
+}
