@@ -4,7 +4,7 @@ const modifyElements = () => {
     targetSelector = '.bard-text';
     document.querySelectorAll(targetSelector).forEach(el => {
         if (el.dataset.modified !== 'true') { // 防止重复修改
-            el.textContent = 'ChatGemini is awesome!';
+            el.textContent = 'ChatGemini';
             el.style.cursor = 'pointer';
             el.title = 'Open Friend ChatGPT';
             el.addEventListener('click', (e) => {
